@@ -15,7 +15,6 @@ while True:
 
     computer = random.choice(choices)
     print("Computer chose:", computer)
-
     if user == computer:
         print("It's a tie!")
     elif (user == "stone" and computer == "scissor") or \
