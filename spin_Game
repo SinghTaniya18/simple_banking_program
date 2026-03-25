@@ -1,0 +1,26 @@
+def spin_row():
+    pass
+
+def print_row():
+    pass
+
+def get_payout():
+    pass
+
+def main():
+    balance=100
+    print("*********************")
+    print("Welcome to spin game")
+    print("Symbol:🥭 🍌 🍎 🍇 ")
+    print("*********************")
+
+while balance > 0:
+    print(f"current balance: ${balance}")
+
+    bet= input("place your bet amount: )
+               if bet.isdigit():
+               print("Please enter a valid number")
+               continue
+
+if __name__ == '__main__':
+    main()
